@@ -1,2 +1,29 @@
-<button mat-raised-button color="primary">Primary Basdutton</button>
+<div class="w-screen h-screen bg-gray-200 dark:bg-gray-600 overflow-hidden">
+    <div class="container h-full mx-auto">
+        <div class="flex flex-col justify-center items-center h-full text-center text-red-600 text-5xl font-mono">
+            <div class="absolute top-4 right-6">
+                <div class="flex items-center">
+                    <mat-slide-toggle  (toggleChange)="toggleChanged()" #toggle></mat-slide-toggle>
+                    <span class="dark:text-gray-300 text-lg ml-2">Dark Mode</span>
+                </div>
+            </div>
+            <img src="../assets/images/logos/angular-tailwind-logo.png" alt="">
+            <div class="block font-extrabold font-serif text-center mt-4 dark:text-gray-300 text-3xl">
+               + MATERIAL 
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Do not delete anything after this line -->
 <router-outlet></router-outlet>
